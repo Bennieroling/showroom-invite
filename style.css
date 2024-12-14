@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0; /* Add a neutral background for the page itself */
+}
+
+.text-background {
+    background: rgba(255, 255, 255, 0.7); /* Light grey with 70% opacity */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for aesthetics */
+}
+
+.invite-card {
+    background: url('background.webp') no-repeat center center;
+    background-size: cover;
+    color: black; /* Text remains white */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    max-width: 400px;
+    height: auto;
+}
+.icon {
+    font-size: 1.2rem; /* Adjust icon size */
+    margin-right: 8px; /* Add space between the icon and the text */
+    vertical-align: middle; /* Align icons with text */
+}
+
+
+.invite-card h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #e74c3c;
+}
+
+.event-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.cta {
+    margin-top: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.download-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #c0392b;
+}
